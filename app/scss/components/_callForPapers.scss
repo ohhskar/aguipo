@@ -8,4 +8,13 @@
     text-align: center;
     margin-bottom: 32px;
   }
+
+  &_btn{
+    margin-top: 64px;
+    text-align: center;
+
+    .btn-light {
+      margin-right: 32px;
+    }
+  }
 }

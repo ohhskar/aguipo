@@ -16,3 +16,15 @@
   background-color: $color-secondary-hover;
   border-color: $color-secondary-hover;
 }
+
+.btn-light{
+  color: $color-secondary;
+}
+
+.btn-light:hover{
+  color: $color-secondary-hover;
+}
+
+.btn-outline-light:hover{
+  color: $color-secondary;
+}
