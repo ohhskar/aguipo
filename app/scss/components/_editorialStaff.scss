@@ -1,0 +1,39 @@
+.editorialStaff{
+  color: $color-primary;
+
+  &_h1{
+    margin-bottom: 32px;
+  }
+
+  &_h3{
+    margin-bottom: 0;
+  }
+
+  &_row{
+   padding: 32px 0; 
+  }
+
+  &_imgHolder{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    @include breakpoint(sm){
+      margin-bottom: 64px;
+    }
+  }
+
+  &_img{
+    position:absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+    
+  }
+
+  &_overText{
+    margin-bottom: 16px;
+  }
+
+}
