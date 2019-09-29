@@ -7,6 +7,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -7226,6 +7228,35 @@ a.text-dark:focus, a.text-dark:hover {
       opacity: 0.75; }
 
 /* 3. Modules*/
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2em; }
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.2em; }
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2em; }
+
+p, li {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.5em; }
+
+.overText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 16px; }
+
 * {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
@@ -7586,15 +7617,60 @@ section {
 .p100 {
   padding: 100px !important; }
 
+.btn {
+  border-radius: 10000px;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 32px; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #874545;
+  border-color: #874545; }
+
+.btn-primary:hover {
+  background-color: #653434;
+  border-color: #653434; }
+
 /* 4. Layout-related sections */
 /* 5. Components*/
-/* 6. Page-specific styles*/
-.page-front {
-  padding-top: 5rem; }
-  .page-front .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center; }
+.callForPapers {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #874545;
+  color: #fff; }
+  .callForPapers_h2 {
+    text-align: center;
+    margin-bottom: 32px; }
 
+.Hero {
+  min-height: calc(100vh);
+  color: #534444;
+  position: relative; }
+  .Hero_rowText {
+    margin-top: 10%; }
+  .Hero_h1 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    max-width: 60%; }
+  .Hero_overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(101.45%, rgba(255, 255, 255, 0)));
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 101.45%);
+    z-index: -1; }
+  .Hero_bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+    height: 100%; }
+
+/* 6. Page-specific styles*/
 /* 7. Overwritten Vendors */
 
 /*# sourceMappingURL=maps/main.css.map */

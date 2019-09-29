@@ -4,5 +4,9 @@
 // $color-blueberry: #3a99d8;
 // $color-blueberry-hover: #4caff0;
 
-// Typefaces
-// $font-opensans: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$color-white: #fff;
+$color-primary: #534444;
+$color-secondary: #874545;
+$color-primary-hover: darken($color-primary, 10%);
+$color-secondary-hover: darken($color-secondary, 10%);
+
