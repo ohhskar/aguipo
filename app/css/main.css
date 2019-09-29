@@ -7620,6 +7620,9 @@ section {
 .p100 {
   padding: 100px !important; }
 
+.nav_img {
+  width: 250px; }
+
 .btn {
   border-radius: 10000px;
   font-family: "Oswald", sans-serif;
