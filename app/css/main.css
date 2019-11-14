@@ -7648,6 +7648,13 @@ section {
 .btn-outline-light:hover {
   color: #874545; }
 
+.btn-outline-dark {
+  color: #874545;
+  border-color: #874545; }
+
+.btn-outline-dark:hover {
+  background-color: #874545; }
+
 /* 4. Layout-related sections */
 /* 5. Components*/
 .callForPapers {

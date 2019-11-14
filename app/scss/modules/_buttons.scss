@@ -28,3 +28,12 @@
 .btn-outline-light:hover{
   color: $color-secondary;
 }
+
+.btn-outline-dark{
+  color: $color-secondary;
+  border-color: $color-secondary;
+}
+
+.btn-outline-dark:hover{
+  background-color: $color-secondary;
+}
